@@ -1,0 +1,5 @@
+#include "Pods-TWMessageBarManager.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/TWMessageBarManager" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/ASIHTTPRequest" "${PODS_ROOT}/Headers/CupertinoYankee" "${PODS_ROOT}/Headers/EAIntroView" "${PODS_ROOT}/Headers/JSONKit-NoWarning" "${PODS_ROOT}/Headers/MBProgressHUD" "${PODS_ROOT}/Headers/MSDynamicsDrawerViewController" "${PODS_ROOT}/Headers/Masonry" "${PODS_ROOT}/Headers/NSDate-Extensions" "${PODS_ROOT}/Headers/OpenUDID" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/TPKeyboardAvoiding" "${PODS_ROOT}/Headers/TTTAttributedLabel" "${PODS_ROOT}/Headers/TWMessageBarManager"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

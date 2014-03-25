@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  RopeSkipping
+
+  Created by 管理员 on 14-2-12.
+  Copyright (c) 2014年 Mirror. All rights reserved.
+*/
+"Release to show last month"="放开显示前一个月";
+"Release to show next month"="放开显示后一个月";
+"Pull down to show last month"="拉动显示前一个月";
+"Pull down to show next month"="拉动显示后一个月";

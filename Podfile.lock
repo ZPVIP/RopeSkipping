@@ -1,0 +1,57 @@
+PODS:
+  - ASIHTTPRequest (1.8.1):
+    - ASIHTTPRequest/ASIWebPageRequest
+    - ASIHTTPRequest/CloudFiles
+    - ASIHTTPRequest/Core
+    - ASIHTTPRequest/S3
+  - ASIHTTPRequest/ASIWebPageRequest (1.8.1):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/CloudFiles (1.8.1):
+    - ASIHTTPRequest/Core
+  - ASIHTTPRequest/Core (1.8.1):
+    - Reachability
+  - ASIHTTPRequest/S3 (1.8.1):
+    - ASIHTTPRequest/Core
+  - CupertinoYankee (1.0.0)
+  - EAIntroView (2.3.1)
+  - JSONKit-NoWarning (1.1)
+  - Masonry (0.3.2)
+  - MBProgressHUD (0.8)
+  - MSDynamicsDrawerViewController (1.4.1)
+  - NSDate-Extensions (0.0.1)
+  - OpenUDID (1.0.0)
+  - Reachability (3.1.1)
+  - TPKeyboardAvoiding (1.2.3)
+  - TTTAttributedLabel (1.8.1)
+  - TWMessageBarManager (1.3.2)
+
+DEPENDENCIES:
+  - ASIHTTPRequest (~> 1.8.1)
+  - CupertinoYankee (~> 1.0.0)
+  - EAIntroView (~> 2.3.1)
+  - JSONKit-NoWarning (~> 1.1)
+  - Masonry (~> 0.3.1)
+  - MBProgressHUD (~> 0.8)
+  - MSDynamicsDrawerViewController (~> 1.4.0)
+  - NSDate-Extensions (~> 0.0.1)
+  - OpenUDID (~> 1.0.0)
+  - TPKeyboardAvoiding (~> 1.2.2)
+  - TTTAttributedLabel (~> 1.8.1)
+  - TWMessageBarManager (~> 1.3.2)
+
+SPEC CHECKSUMS:
+  ASIHTTPRequest: 34f0d02cc3e31e87591c8d9bda78697a29b92035
+  CupertinoYankee: e7f8a5189aebcb1843b349df83e29298be4f6ce0
+  EAIntroView: 44482e1dfb11cdcb2fca0b4abcffc8a16a9c9a99
+  JSONKit-NoWarning: a3a5e71a6739262b376bdb29a23619f61590a8c0
+  Masonry: b74ccb149109f9bca6f8e37eadc9d9ac78ac4948
+  MBProgressHUD: 2bbc6f470111daf7f3eaa4eb12b8cbf01c4c0622
+  MSDynamicsDrawerViewController: 01c6c2ff2eab43790aca5ca9b5fea98808cc1e97
+  NSDate-Extensions: b78c2b3f363acdcd7b5d2547a6bef6656cd8ff70
+  OpenUDID: 13ab988776ef38dca1e2e799e961448cf83a8111
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  TPKeyboardAvoiding: 17995aaa6db26ac2a9fa8714a86509c5888f0392
+  TTTAttributedLabel: 3a571d73e055f4a79c304240598e4bfd199238e4
+  TWMessageBarManager: e14110324f2b2e821ba0880805a0655cbdb76e82
+
+COCOAPODS: 0.29.0

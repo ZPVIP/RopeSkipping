@@ -1,0 +1,16 @@
+platform :ios, "7.0"
+
+pod 'Masonry', '~> 0.3.1'
+pod "NSDate-Extensions", '~> 0.0.1'
+pod "CupertinoYankee", '~> 1.0.0'
+pod 'MSDynamicsDrawerViewController', '~> 1.4.0'
+pod 'MBProgressHUD', '~> 0.8'
+pod 'TPKeyboardAvoiding', '~> 1.2.2'
+pod 'TWMessageBarManager', '~> 1.3.2'
+pod 'ASIHTTPRequest', '~> 1.8.1'
+pod 'JSONKit-NoWarning', '~> 1.1'
+pod 'TTTAttributedLabel', '~> 1.8.1'
+pod 'OpenUDID', '~> 1.0.0'
+#pod "ObjectiveRecord", :git => 'https://github.com/mneorr/ObjectiveRecord'
+#pod 'ObjectiveRecord', '~> 1.4.0'
+pod 'EAIntroView', '~> 2.3.1'

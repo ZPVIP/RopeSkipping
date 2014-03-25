@@ -1,0 +1,110 @@
+
+// To check if a library is compiled with CocoaPods you
+// can use the `COCOAPODS` macro definition which is
+// defined in the xcconfigs so it is available in
+// headers also when they are imported in the client
+// project.
+
+
+// ASIHTTPRequest
+#define COCOAPODS_POD_AVAILABLE_ASIHTTPRequest
+#define COCOAPODS_VERSION_MAJOR_ASIHTTPRequest 1
+#define COCOAPODS_VERSION_MINOR_ASIHTTPRequest 8
+#define COCOAPODS_VERSION_PATCH_ASIHTTPRequest 1
+
+// ASIHTTPRequest/ASIWebPageRequest
+#define COCOAPODS_POD_AVAILABLE_ASIHTTPRequest_ASIWebPageRequest
+#define COCOAPODS_VERSION_MAJOR_ASIHTTPRequest_ASIWebPageRequest 1
+#define COCOAPODS_VERSION_MINOR_ASIHTTPRequest_ASIWebPageRequest 8
+#define COCOAPODS_VERSION_PATCH_ASIHTTPRequest_ASIWebPageRequest 1
+
+// ASIHTTPRequest/CloudFiles
+#define COCOAPODS_POD_AVAILABLE_ASIHTTPRequest_CloudFiles
+#define COCOAPODS_VERSION_MAJOR_ASIHTTPRequest_CloudFiles 1
+#define COCOAPODS_VERSION_MINOR_ASIHTTPRequest_CloudFiles 8
+#define COCOAPODS_VERSION_PATCH_ASIHTTPRequest_CloudFiles 1
+
+// ASIHTTPRequest/Core
+#define COCOAPODS_POD_AVAILABLE_ASIHTTPRequest_Core
+#define COCOAPODS_VERSION_MAJOR_ASIHTTPRequest_Core 1
+#define COCOAPODS_VERSION_MINOR_ASIHTTPRequest_Core 8
+#define COCOAPODS_VERSION_PATCH_ASIHTTPRequest_Core 1
+
+// ASIHTTPRequest/S3
+#define COCOAPODS_POD_AVAILABLE_ASIHTTPRequest_S3
+#define COCOAPODS_VERSION_MAJOR_ASIHTTPRequest_S3 1
+#define COCOAPODS_VERSION_MINOR_ASIHTTPRequest_S3 8
+#define COCOAPODS_VERSION_PATCH_ASIHTTPRequest_S3 1
+
+// CupertinoYankee
+#define COCOAPODS_POD_AVAILABLE_CupertinoYankee
+#define COCOAPODS_VERSION_MAJOR_CupertinoYankee 1
+#define COCOAPODS_VERSION_MINOR_CupertinoYankee 0
+#define COCOAPODS_VERSION_PATCH_CupertinoYankee 0
+
+// EAIntroView
+#define COCOAPODS_POD_AVAILABLE_EAIntroView
+#define COCOAPODS_VERSION_MAJOR_EAIntroView 2
+#define COCOAPODS_VERSION_MINOR_EAIntroView 3
+#define COCOAPODS_VERSION_PATCH_EAIntroView 1
+
+// JSONKit-NoWarning
+#define COCOAPODS_POD_AVAILABLE_JSONKit_NoWarning
+#define COCOAPODS_VERSION_MAJOR_JSONKit_NoWarning 1
+#define COCOAPODS_VERSION_MINOR_JSONKit_NoWarning 1
+#define COCOAPODS_VERSION_PATCH_JSONKit_NoWarning 0
+
+// MBProgressHUD
+#define COCOAPODS_POD_AVAILABLE_MBProgressHUD
+#define COCOAPODS_VERSION_MAJOR_MBProgressHUD 0
+#define COCOAPODS_VERSION_MINOR_MBProgressHUD 8
+#define COCOAPODS_VERSION_PATCH_MBProgressHUD 0
+
+// MSDynamicsDrawerViewController
+#define COCOAPODS_POD_AVAILABLE_MSDynamicsDrawerViewController
+#define COCOAPODS_VERSION_MAJOR_MSDynamicsDrawerViewController 1
+#define COCOAPODS_VERSION_MINOR_MSDynamicsDrawerViewController 4
+#define COCOAPODS_VERSION_PATCH_MSDynamicsDrawerViewController 1
+
+// Masonry
+#define COCOAPODS_POD_AVAILABLE_Masonry
+#define COCOAPODS_VERSION_MAJOR_Masonry 0
+#define COCOAPODS_VERSION_MINOR_Masonry 3
+#define COCOAPODS_VERSION_PATCH_Masonry 2
+
+// NSDate-Extensions
+#define COCOAPODS_POD_AVAILABLE_NSDate_Extensions
+#define COCOAPODS_VERSION_MAJOR_NSDate_Extensions 0
+#define COCOAPODS_VERSION_MINOR_NSDate_Extensions 0
+#define COCOAPODS_VERSION_PATCH_NSDate_Extensions 1
+
+// OpenUDID
+#define COCOAPODS_POD_AVAILABLE_OpenUDID
+#define COCOAPODS_VERSION_MAJOR_OpenUDID 1
+#define COCOAPODS_VERSION_MINOR_OpenUDID 0
+#define COCOAPODS_VERSION_PATCH_OpenUDID 0
+
+// Reachability
+#define COCOAPODS_POD_AVAILABLE_Reachability
+#define COCOAPODS_VERSION_MAJOR_Reachability 3
+#define COCOAPODS_VERSION_MINOR_Reachability 1
+#define COCOAPODS_VERSION_PATCH_Reachability 1
+
+// TPKeyboardAvoiding
+#define COCOAPODS_POD_AVAILABLE_TPKeyboardAvoiding
+#define COCOAPODS_VERSION_MAJOR_TPKeyboardAvoiding 1
+#define COCOAPODS_VERSION_MINOR_TPKeyboardAvoiding 2
+#define COCOAPODS_VERSION_PATCH_TPKeyboardAvoiding 3
+
+// TTTAttributedLabel
+#define COCOAPODS_POD_AVAILABLE_TTTAttributedLabel
+#define COCOAPODS_VERSION_MAJOR_TTTAttributedLabel 1
+#define COCOAPODS_VERSION_MINOR_TTTAttributedLabel 8
+#define COCOAPODS_VERSION_PATCH_TTTAttributedLabel 1
+
+// TWMessageBarManager
+#define COCOAPODS_POD_AVAILABLE_TWMessageBarManager
+#define COCOAPODS_VERSION_MAJOR_TWMessageBarManager 1
+#define COCOAPODS_VERSION_MINOR_TWMessageBarManager 3
+#define COCOAPODS_VERSION_PATCH_TWMessageBarManager 2
+
