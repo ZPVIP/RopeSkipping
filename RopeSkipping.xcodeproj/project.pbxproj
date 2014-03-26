@@ -145,6 +145,7 @@
 		03980F3018BDF2F500DFF2DC /* arrows@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03980F2F18BDF2F500DFF2DC /* arrows@2x.png */; };
 		03A1986118C6C703002D80AC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A1986018C6C703002D80AC /* MessageUI.framework */; };
 		03AD2C7118ACC9F300040A51 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AD2C6F18ACC9F300040A51 /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		03B5CE6518E2B03500151F11 /* 记事本.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03B5CE6418E2B03500151F11 /* 记事本.rtf */; };
 		03D0D5F118C715A800AF0C3A /* RSMobClickManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03D0D5F018C715A800AF0C3A /* RSMobClickManager.m */; };
 		03E5933A18C6C83600D3868A /* SMSConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 031B034818BC2CED000C4FDC /* SMSConnection.framework */; };
 		03E5933D18C6CD0500D3868A /* RSLocalNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E5933C18C6CD0500D3868A /* RSLocalNotificationManager.m */; };
@@ -368,6 +369,7 @@
 		03A1986018C6C703002D80AC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		03AD2C6E18ACC9F300040A51 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
 		03AD2C6F18ACC9F300040A51 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		03B5CE6418E2B03500151F11 /* 记事本.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "记事本.rtf"; sourceTree = "<group>"; };
 		03D0D5EF18C715A800AF0C3A /* RSMobClickManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSMobClickManager.h; sourceTree = "<group>"; };
 		03D0D5F018C715A800AF0C3A /* RSMobClickManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSMobClickManager.m; sourceTree = "<group>"; };
 		03E5933B18C6CD0500D3868A /* RSLocalNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSLocalNotificationManager.h; sourceTree = "<group>"; };
@@ -722,6 +724,7 @@
 		03246CAA18890AEA00B72089 = {
 			isa = PBXGroup;
 			children = (
+				03B5CE6418E2B03500151F11 /* 记事本.rtf */,
 				03388D3818CF0B0C0001BE66 /* ObjectiveRecord */,
 				03388D4318CF0B0D0001BE66 /* ObjectiveSugar */,
 				03E5934018C710D800D3868A /* UMAnalytics_Sdk_2.2.1.OpenUDID */,
@@ -1110,6 +1113,7 @@
 				031B03B518BC2CEE000C4FDC /* ShareSDKiPadDefaultShareViewUI.bundle in Resources */,
 				031B03D018BC4DBE000C4FDC /* man@2x.png in Resources */,
 				03980F3018BDF2F500DFF2DC /* arrows@2x.png in Resources */,
+				03B5CE6518E2B03500151F11 /* 记事本.rtf in Resources */,
 				031B03B718BC2CEE000C4FDC /* ShareSDKiPadSimpleShareViewUI.bundle in Resources */,
 				03E7A7E318B6E4BA0040E981 /* RSSettingViewController.xib in Resources */,
 				031B03AC18BC2CEE000C4FDC /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
