@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RSWelcomeViewController">
@@ -17,14 +17,16 @@
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loading.png" translatesAutoresizingMaskIntoConstraints="NO" id="hkT-q4-r49">
                     <rect key="frame" x="51" y="240" width="219" height="88"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="88" id="iBp-5J-ClS"/>
+                        <constraint firstAttribute="width" constant="219" id="jfV-dh-YeV"/>
+                    </constraints>
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="hkT-q4-r49" firstAttribute="top" secondItem="1" secondAttribute="top" constant="240" id="69q-BA-Zly"/>
-                <constraint firstAttribute="trailing" secondItem="hkT-q4-r49" secondAttribute="trailing" constant="50" id="Gm0-7O-hgm"/>
-                <constraint firstItem="hkT-q4-r49" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="51" id="HsT-TL-Sjy"/>
-                <constraint firstAttribute="bottom" secondItem="hkT-q4-r49" secondAttribute="bottom" constant="240" id="hbK-TZ-ftF"/>
+                <constraint firstAttribute="centerY" secondItem="hkT-q4-r49" secondAttribute="centerY" id="U1T-4W-Uq7"/>
+                <constraint firstAttribute="centerX" secondItem="hkT-q4-r49" secondAttribute="centerX" id="zl9-8x-9l0"/>
             </constraints>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>

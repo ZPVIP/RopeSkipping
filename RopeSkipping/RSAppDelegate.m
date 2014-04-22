@@ -273,7 +273,8 @@
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.tag = RSMyButtonTag;
         [btn addTarget:self action:@selector(editUser:) forControlEvents:UIControlEventTouchUpInside];
-        [btn setFrame:CGRectMake(80, 370, 160, 60)];
+        CGSize size = [UIScreen mainScreen].bounds.size;
+        [btn setFrame:CGRectMake(size.width/4, size.height*0.652, size.width/2, size.height*0.103)];
         [introView addSubview:btn];
     }else{
         for (UIView* view in introView.subviews) {
