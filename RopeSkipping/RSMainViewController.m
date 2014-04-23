@@ -247,8 +247,9 @@ static NSString* const RSMainViewControllerModelTimeUnit = @"m";
         
         [self.scrollContentView addSubview:model];
         [model mas_updateConstraints:^(MASConstraintMaker *make) {
-            make.right.equalTo(@(-100));
+            make.right.equalTo(@(-88));
             make.top.equalTo(@(40));
+            make.width.equalTo(@(40));
         }];
         [model addTarget:self action:@selector(modelButtonClick:) forControlEvents:UIControlEventTouchUpInside];
         self.modelButton = model;
