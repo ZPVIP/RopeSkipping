@@ -39,14 +39,14 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vns-C4-rAB">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="481"/>
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         </view>
                     </subviews>
                     <constraints>
                         <constraint firstItem="Vns-C4-rAB" firstAttribute="leading" secondItem="fwt-C4-o7U" secondAttribute="leading" id="10c-hX-THk"/>
-                        <constraint firstAttribute="height" secondItem="Vns-C4-rAB" secondAttribute="height" id="8Iu-J5-run"/>
+                        <constraint firstAttribute="height" secondItem="Vns-C4-rAB" secondAttribute="height" constant="1" id="8Iu-J5-run"/>
                         <constraint firstAttribute="bottom" secondItem="Vns-C4-rAB" secondAttribute="bottom" id="EKj-8P-e63"/>
                         <constraint firstAttribute="trailing" secondItem="Vns-C4-rAB" secondAttribute="trailing" id="aKG-ce-pcF"/>
                         <constraint firstAttribute="width" secondItem="Vns-C4-rAB" secondAttribute="width" priority="500" id="hHx-Rn-EkP"/>
